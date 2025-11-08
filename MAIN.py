@@ -3,7 +3,7 @@ from absl import flags
 import ml_collections
 import wandb
 import configs
-from Train import HJBLoss, TrainEpochHJB, train_hjb
+from Train import HJBLoss, TrainEpochHJB, train_hjb, plot_trajectory
 import torch
 from run import *
 torch.autograd.set_detect_anomaly(True)
